@@ -1,0 +1,305 @@
+[
+    {
+      "question": "Quel est le résultat de 2 + 2 ?",
+      "options": ["3", "4", "5", "6"],
+      "answer": 1,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Londres", "Berlin", "Paris", "Madrid"],
+      "answer": 2,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Combien de jours dans une semaine ?",
+      "options": ["5", "6", "7", "8"],
+      "answer": 2,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Combien y a-t-il de continents ?",
+      "options": ["5", "6", "7", "8"],
+      "answer": 2,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Combien font 10 - 4 ?",
+      "options": ["4", "5", "6", "7"],
+      "answer": 2,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la couleur du ciel quand il fait beau ?",
+      "options": ["Rouge", "Bleu", "Vert", "Gris"],
+      "answer": 1,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Combien de pattes a un chien ?",
+      "options": ["2", "4", "6", "8"],
+      "answer": 1,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la première lettre de l’alphabet ?",
+      "options": ["Z", "B", "A", "D"],
+      "answer": 2,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Le feu est de quelle couleur quand il signifie 'stop' ?",
+      "options": ["Vert", "Jaune", "Rouge", "Bleu"],
+      "answer": 2,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel animal miaule ?",
+      "options": ["Chien", "Chat", "Oiseau", "Lapin"],
+      "answer": 1,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Combien de zéros dans cent ?",
+      "options": ["1", "2", "3", "4"],
+      "answer": 1,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle saison vient après le printemps ?",
+      "options": ["Hiver", "Automne", "Été", "Printemps"],
+      "answer": 2,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fruit est jaune et courbé ?",
+      "options": ["Pomme", "Raisin", "Banane", "Fraise"],
+      "answer": 2,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le jour entre lundi et mercredi ?",
+      "options": ["Dimanche", "Mardi", "Jeudi", "Vendredi"],
+      "answer": 1,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle boisson est produite par les vaches ?",
+      "options": ["Eau", "Jus", "Lait", "Soda"],
+      "answer": 2,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment s'appelle un bébé chien ?",
+      "options": ["Chaton", "Chiot", "Veau", "Poussin"],
+      "answer": 1,
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le contraire de 'haut' ?",
+      "options": ["Gros", "Bas", "Loin", "Vide"],
+      "answer": 1,
+      "difficulty": "facile"
+    },
+  
+    {
+      "question": "Combien de côtés a un triangle ?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 1,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Quel est l'élément chimique représenté par O ?",
+      "options": ["Or", "Oxygène", "Osmium", "Ozone"],
+      "answer": 1,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Quelle est la monnaie du Japon ?",
+      "options": ["Dollar", "Yen", "Euro", "Won"],
+      "answer": 1,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Qui a peint la Joconde ?",
+      "options": ["Van Gogh", "Da Vinci", "Picasso", "Michel-Ange"],
+      "answer": 1,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "options": ["Venus", "Mars", "Mercure", "Terre"],
+      "answer": 2,
+      "difficulty": "normal"
+    },
+    {
+      "question": "En quelle année a commencé la Première Guerre mondiale ?",
+      "options": ["1914", "1939", "1945", "1929"],
+      "answer": 0,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Combien de joueurs dans une équipe de football ?",
+      "options": ["9", "10", "11", "12"],
+      "answer": 2,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Combien de paires de côtes a un humain ?",
+      "options": ["10", "11", "12", "13"],
+      "answer": 2,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Quelle langue parle-t-on au Brésil ?",
+      "options": ["Espagnol", "Portugais", "Français", "Anglais"],
+      "answer": 1,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Quelle est la plus grande planète du système solaire ?",
+      "options": ["Saturne", "Terre", "Jupiter", "Mars"],
+      "answer": 2,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Dans quel pays se trouve la Tour de Pise ?",
+      "options": ["Espagne", "Italie", "France", "Grèce"],
+      "answer": 1,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "options": ["Balzac", "Zola", "Victor Hugo", "Voltaire"],
+      "answer": 2,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Quel gaz les plantes absorbent-elles ?",
+      "options": ["Oxygène", "Hydrogène", "Carbone", "Dioxyde de carbone"],
+      "answer": 3,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Comment appelle-t-on un polygone à huit côtés ?",
+      "options": ["Hexagone", "Octogone", "Pentagone", "Heptagone"],
+      "answer": 1,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Quel pays est surnommé le pays du Soleil levant ?",
+      "options": ["Chine", "Corée", "Japon", "Thaïlande"],
+      "answer": 2,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Quelle est la langue la plus parlée au monde ?",
+      "options": ["Anglais", "Espagnol", "Hindi", "Chinois mandarin"],
+      "answer": 3,
+      "difficulty": "normal"
+    },
+    {
+      "question": "Qui a développé la théorie de la relativité ?",
+      "options": ["Newton", "Galilée", "Einstein", "Tesla"],
+      "answer": 2,
+      "difficulty": "normal"
+    },
+  
+    {
+      "question": "Quelle est la racine carrée de 144 ?",
+      "options": ["10", "11", "12", "13"],
+      "answer": 2,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qui a écrit 'Le Prince' ?",
+      "options": ["Platon", "Machiavel", "Socrate", "Aristote"],
+      "answer": 1,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le plus long fleuve du monde ?",
+      "options": ["Mississippi", "Nil", "Amazone", "Yangtsé"],
+      "answer": 2,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le plus petit pays du monde ?",
+      "options": ["Monaco", "Vatican", "Liechtenstein", "San Marin"],
+      "answer": 1,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Dans quel pays se trouve le mont Kilimandjaro ?",
+      "options": ["Kenya", "Tanzanie", "Ouganda", "Éthiopie"],
+      "answer": 1,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Combien de bits dans un octet ?",
+      "options": ["4", "8", "16", "32"],
+      "answer": 1,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le symbole chimique du plomb ?",
+      "options": ["Pl", "Pb", "P", "Ld"],
+      "answer": 1,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle année a marqué la chute de l’URSS ?",
+      "options": ["1989", "1990", "1991", "1992"],
+      "answer": 2,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la capitale de l’Australie ?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "answer": 2,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la formule de l’énergie cinétique ?",
+      "options": ["mv", "mv²/2", "m²v", "v²/m"],
+      "answer": 1,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel philosophe a dit 'Je pense donc je suis' ?",
+      "options": ["Sartre", "Nietzsche", "Descartes", "Kant"],
+      "answer": 2,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Combien de chromosomes chez l'humain ?",
+      "options": ["42", "44", "46", "48"],
+      "answer": 2,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel pays a inventé le papier ?",
+      "options": ["Égypte", "Grèce", "Chine", "Inde"],
+      "answer": 2,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le nom du satellite naturel de la Terre ?",
+      "options": ["Lune", "Mars", "Phobos", "Titan"],
+      "answer": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qui a composé la 9ème symphonie ?",
+      "options": ["Mozart", "Beethoven", "Chopin", "Bach"],
+      "answer": 1,
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la capitale de la Norvège ?",
+      "options": ["Stockholm", "Helsinki", "Oslo", "Copenhague"],
+      "answer": 2,
+      "difficulty": "difficile"
+    }
+  ]
+  

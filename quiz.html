@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>quiz-jeux</title>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div id="difficulty-selector" class="flex gap-4 justify-center my-6">
+        <button onclick="startQuiz('facile')" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">Facile</button>
+        <button onclick="startQuiz('normal')" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 transition">Normal</button>
+        <button onclick="startQuiz('difficile')" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">Difficile</button>
+      </div>
+
+      <div id="quiz" class="max-w-xl mx-auto text-center p-4"></div>
+      
+  <div class="bg-white p-6 rounded-2xl shadow-lg w-full max-w-xl">
+    <h1 class="text-2xl font-bold mb-4 text-center">🎯 Quiz</h1>
+    <div id="timer" class="text-center text-red-600 font-bold text-lg mb-2"></div>
+    <div id="quiz-container" class="space-y-4"></div>
+    <div id="result" class="text-center mt-4 font-semibold text-lg hidden"></div>
+    <button id="next-btn" class="mt-4 w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Suivant</button>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+
+</html>
