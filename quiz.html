@@ -1,31 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- <link href="/src/output.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="./src/output.css" rel="stylesheet">
     <title>quiz-jeux</title>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+<body class="bg-gray-400 flex items-center justify-center min-h-screen">
+
+  <div id="timer" class="fixed top-0 left-0 right-0 bg-red-600 text-white font-bold text-lg p-4 text-center z-50">
+    ⏱️ Temps restant : 10s
+</div>
+
+
+    <!-- Sélecteur de difficulté  -->
     <div id="difficulty-selector" class="flex gap-4 justify-center my-6">
-        <button onclick="startQuiz('facile')" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">Facile</button>
+        <button onclick="('facile')" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">Facile</button>
         <button onclick="startQuiz('normal')" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 transition">Normal</button>
         <button onclick="startQuiz('difficile')" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">Difficile</button>
-      </div>
+    </div> 
 
-      <div id="quiz" class="max-w-xl mx-auto text-center p-4"></div>
-      
-  <div class="bg-white p-6 rounded-2xl shadow-lg w-full max-w-xl">
-    <h1 class="text-2xl font-bold mb-4 text-center">🎯 Quiz</h1>
-    <div id="timer" class="text-center text-red-600 font-bold text-lg mb-2"></div>
-    <div id="quiz-container" class="space-y-4"></div>
-    <div id="result" class="text-center mt-4 font-semibold text-lg hidden"></div>
-    <button id="next-btn" class="mt-4 w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Suivant</button>
-  </div>
+     <!-- Barre de progression  -->
+    <div class="w-full bg-gray-300 h-6 mb-120 relative ">
+        <div id="progress-bar" class="bg-blue-500 h-6" style="width: 0%"></div>
+        <span id="progress-percentage" class="absolute top-0 left-0 right-0 text-center text-white font-bold">0%</span>
+    </div>
 
-  <script src="quiz.js"></script>
-</body>
+    <!-- Quiz container -->
+     <div class="bg-white p-6 rounded-2xl shadow-lg w-full max-w-xl">
+        <h1 class="text-2xl font-bold mb-4 text-center">🎯 Quiz</h1> 
 
-</html>
+        <!-- Timer -->
+         <div id="timer" class="text-center text-red-600 font-bold text-lg mb-2"></div>
+
+        <!-- Quiz questions -->
+         <div id="quiz-container" class="space-y-4"></div>
+
+        <!-- Feedback after each answer -->
+        <div id="feedback" class="text-center font-semibold mb-4 hidden"></div>
+
+        <!-- Resultat -->
+         <div id="result" class="text-center mt-4 font-semibold text-lg hidden"></div> 
+
+        <!-- Button for next question -->
+        <button id="next-btn" class="mt-4 w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Suivant</button>
+    </div> 
+
+     <script src="quiz.js"></script> 
+ </body> 
+ </html> 
+
